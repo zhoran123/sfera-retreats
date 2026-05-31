@@ -109,7 +109,7 @@ export function Manifesto() {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute -bottom-8 -left-8 hidden md:block bg-[var(--soft)] px-6 py-5 border-l-2 border-[var(--gold)] max-w-[260px]">
+          <div className="mt-6 md:mt-8 md:absolute md:-bottom-6 md:left-6 lg:-left-10 bg-[var(--soft)] px-6 py-5 border-l-2 border-[var(--gold)] max-w-[280px] shadow-sm">
             <p className="text-[12px] tracking-[0.2em] uppercase" style={{ color: "var(--wood)" }}>
               два дня, которые
             </p>
