@@ -64,7 +64,7 @@ export function Manifesto() {
             </p>
           </div>
 
-          <div className="mt-14 grid sm:grid-cols-3 gap-px bg-[oklch(0.84_0.03_80)]">
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-px bg-[oklch(0.84_0.03_80)]">
             {PILLARS.map((p, i) => (
               <button
                 key={p.word}
