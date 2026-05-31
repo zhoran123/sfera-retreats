@@ -23,7 +23,7 @@ const PACKS = [
     name: "Wellness-ретрит",
     price: "от 18 000–25 000 ₽ / чел. / ночь",
     points: ["3–5 ночей", "Питание", "Зал практик", "Баня", "Healthy-меню", "Йога / дыхание"],
-    highlight: true,
+    highlight: false,
   },
   {
     name: "Малый корпоратив",

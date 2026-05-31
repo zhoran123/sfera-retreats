@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const NAV = [
   { href: "#scenarios", label: "Сценарии" },
@@ -32,10 +33,11 @@ export function Header() {
     >
       <div className="mx-auto max-w-[1400px] px-6 md:px-10 h-16 md:h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3 group">
-          <span className="relative inline-flex items-center justify-center w-9 h-9 rounded-full border border-gold/60">
-            <span className="absolute inset-1 rounded-full border border-gold/30" />
-            <span className="absolute inset-2 rounded-full bg-gold/20" />
-          </span>
+          <img
+            src={logo}
+            alt="Sfera"
+            className="h-10 md:h-12 w-auto transition-transform duration-500 group-hover:scale-105"
+          />
           <span className="font-display text-2xl tracking-tight">
             Sfera <span className="text-mist text-base align-middle">/ Сфера</span>
           </span>

@@ -1,13 +1,12 @@
+import logo from "@/assets/logo.png";
+
 export function Footer() {
   return (
     <footer className="bg-charcoal border-t border-border/60">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10 py-20 grid md:grid-cols-2 lg:grid-cols-4 gap-12">
         <div>
           <div className="flex items-center gap-3">
-            <span className="relative inline-flex items-center justify-center w-9 h-9 rounded-full border border-gold/60">
-              <span className="absolute inset-1 rounded-full border border-gold/30" />
-              <span className="absolute inset-2 rounded-full bg-gold/20" />
-            </span>
+            <img src={logo} alt="Sfera" className="h-10 w-auto" />
             <span className="font-display text-2xl">Sfera / Сфера</span>
           </div>
           <p className="mt-5 text-sm text-foreground/65 leading-relaxed max-w-xs">
