@@ -31,16 +31,13 @@ export function Header() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto max-w-[1400px] px-6 md:px-10 h-16 md:h-20 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-3 group">
+      <div className="mx-auto max-w-[1400px] px-6 md:px-10 h-20 md:h-28 flex items-center justify-between">
+        <a href="#top" className="flex items-center group">
           <img
             src={logo}
             alt="Sfera"
-            className="h-10 md:h-12 w-auto transition-transform duration-500 group-hover:scale-105"
+            className="h-14 md:h-20 w-auto transition-transform duration-500 group-hover:scale-105"
           />
-          <span className="font-display text-2xl tracking-tight">
-            Sfera <span className="text-mist text-base align-middle">/ Сфера</span>
-          </span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-7 text-[13px] tracking-wide text-foreground/85">
