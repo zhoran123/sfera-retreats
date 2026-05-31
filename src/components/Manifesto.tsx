@@ -64,7 +64,7 @@ export function Manifesto() {
             </p>
           </div>
 
-          <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-px bg-[oklch(0.84_0.03_80)]">
+          <div className="mt-14 grid grid-cols-1 sm:grid-cols-3 gap-px bg-[oklch(0.84_0.03_80)]">
             {PILLARS.map((p, i) => (
               <button
                 key={p.word}
@@ -72,9 +72,9 @@ export function Manifesto() {
                 onMouseLeave={() => setActive(null)}
                 onFocus={() => setActive(i)}
                 onBlur={() => setActive(null)}
-                className="group text-left bg-[var(--ivory)] p-6 sm:p-8 relative transition-colors duration-500 hover:bg-[var(--soft)]"
+                className="group text-left bg-[var(--ivory)] p-5 sm:p-6 relative transition-colors duration-500 hover:bg-[var(--soft)] min-w-0"
               >
-                <span className="block font-display text-2xl sm:text-3xl mb-3" style={{ color: "var(--charcoal)" }}>
+                <span className="block font-display text-xl sm:text-2xl lg:text-3xl mb-3 leading-tight break-words hyphens-auto" style={{ color: "var(--charcoal)" }}>
                   {p.word}
                 </span>
                 <span
@@ -85,10 +85,11 @@ export function Manifesto() {
                 >
                   {p.note}
                 </span>
-                <span className="absolute left-6 sm:left-8 bottom-4 h-px w-8 bg-[var(--gold)]" />
+                <span className="absolute left-5 sm:left-6 bottom-4 h-px w-8 bg-[var(--gold)]" />
               </button>
             ))}
           </div>
+
         </div>
 
         <motion.div
